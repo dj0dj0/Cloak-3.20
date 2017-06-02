@@ -4479,6 +4479,28 @@ colorchooser .popover.osd {
 /**********************
  * Window Decorations *
  *********************/
+
+.ssd headerbar.titlebar {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    min-height: 0; }
+
+.ssd headerbar.titlebar button.titlebutton {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    min-height: 0; }
+
+terminal-window notebook > header.top button {
+  padding: 0 0 0 0;
+  background-image: none;
+  border: 0; }
+terminal-window notebook > header.top > tabs > tab {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0; }
+terminal-window notebook > header.top > tabs > tab label {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0; }
+
 decoration {
   border-radius: 7px 7px 0 0;
   border-width: 0px;
